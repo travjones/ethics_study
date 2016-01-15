@@ -1,0 +1,62 @@
+CREATE TABLE IF NOT EXISTS "uf_student" (
+  "uf_student_id"   serial PRIMARY KEY,
+  "age"             integer,
+  "gender"          varchar(50),
+  "ethnicity"       varchar(50),
+  "kids"            boolean,
+  "rec_services"    boolean,
+  "service_legnth"  integer,
+  "pref_1"          decimal,
+  "pref_2"          decimal,
+  "pref_3"          decimal,
+  "pref_4"          decimal,
+  "trial_1"         integer,
+  "trial_2"         integer,
+  "trial_3"         integer,
+  "trial_4"         integer,
+  "trial_5"         integer,
+  "trial_6"         integer
+);
+
+CREATE TABLE IF NOT EXISTS "family" (
+  "family_id"       serial PRIMARY KEY,
+  "age"             integer,
+  "gender"          varchar(50),
+  "ethnicity"       varchar(50),
+  "kids"            boolean,
+  "rec_services"    boolean,
+  "service_legnth"  integer,
+  "pref_1"          decimal,
+  "pref_2"          decimal,
+  "pref_3"          decimal,
+  "pref_4"          decimal,
+  "trial_1"         integer,
+  "trial_2"         integer,
+  "trial_3"         integer,
+  "trial_4"         integer,
+  "trial_5"         integer,
+  "trial_6"         integer
+);
+
+CREATE TABLE IF NOT EXISTS "bcba" (
+  "bcba_id"         serial PRIMARY KEY,
+  "age"             integer,
+  "gender"          varchar(50),
+  "ethnicity"       varchar(50),
+  "kids"            boolean,
+  "rec_services"    boolean,
+  "service_legnth"  integer,
+  "service_prov"    integer,
+  "years_prac"      integer,
+  "cert_level"      integer,
+  "pref_1"          decimal,
+  "pref_2"          decimal,
+  "pref_3"          decimal,
+  "pref_4"          decimal,
+  "trial_1"         integer,
+  "trial_2"         integer,
+  "trial_3"         integer,
+  "trial_4"         integer,
+  "trial_5"         integer,
+  "trial_6"         integer
+);

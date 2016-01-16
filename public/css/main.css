@@ -22,7 +22,13 @@ body {
 
 .temp-box {
     width: 320px;
-    height: 240px;
+    height: 180px;
     background-color: #dfdfdf;
+    margin: auto;
+}
+
+.pic-test {
+    width: 320px;
+    height: 180px;
     margin: auto;
 }
